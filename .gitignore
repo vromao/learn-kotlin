@@ -1,0 +1,4 @@
+# Project exclude paths
+web-app-react-kotlin-js-gradle/.gradle/
+web-app-react-kotlin-js-gradle/build/
+web-app-react-kotlin-js-gradle/build/js/packages/confexplorer/kotlin/
