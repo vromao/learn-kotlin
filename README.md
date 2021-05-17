@@ -46,6 +46,7 @@ fun main() {
 ```
 
 - Infix Functions
+Tips: thinking infix will be like a operator. // 2 + 2 = operand OPERATOR operand (expand example below)
 <details>
 <summary>Click to expand code from <a href="https://play.kotlinlang.org/byExample/01_introduction/02_Functions" target="_blank">Kotlin Doc</a></summary>
 <p>
@@ -57,11 +58,11 @@ fun main() {
     println(2 times "Bye ") // Bye Bye 
 
     val pair = "Ferrari" to "Katrina"
-    println(pair) (Ferrari, Katrina)
+    println(pair) // (Ferrari, Katrina)
 
     infix fun String.onto(other: String) = Pair(this, other)
     val myPair = "McLaren" onto "Lucas"
-    println(myPair) (McLaren, Lucas)
+    println(myPair) // (McLaren, Lucas)
 
     val sophia = Person("Sophia")
     val claudia = Person("Claudia")
